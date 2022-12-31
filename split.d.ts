@@ -6,7 +6,7 @@ declare module typedArraySplit {
    * @param input TypedArray[]
    * @param length Number
    */
-  export default function (input: TypedArray[], seperator: String | TypedArray, length: Number):TypedArray 
+  export default function (input: TypedArray[], seperator: String | TypedArray):TypedArray 
 }
 
 declare module '@vandeurenglenn/typed-array-join' {

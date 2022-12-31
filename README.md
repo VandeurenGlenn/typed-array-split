@@ -1,18 +1,16 @@
-# typed-array-join
-> TypedArray.set() the join() way
+# typed-array-split
+> split(TypedArray, sep)
 
 ## install
 ```sh
-npm i @vandeurenglenn/typed-array-join
+npm i @vandeurenglenn/typed-array-split
 ```
 
 ## usage
 ```js
-import typedArrayJoin from '@vandeurenglenn/typed-array-join'
+import typedArraySplit from '@vandeurenglenn/typed-array-split'
 
-const joined = typedArrayjoin([
-  new TextEncoder('hello'),
-  new TextEncoder('world')
-], '/')
-console.log(new TextDecoder().decode(joined)) // hello/world
+const splitsed = typedArraySplit(joined, '/')
+console.log(new TextDecoder().decode(splitsed[0])) // hello
+console.log(new TextDecoder().decode(splitsed[1])) // world
 ```
