@@ -1,0 +1,28 @@
+{
+  "name": "@vandeurenglenn/typed-array-split",
+  "version": "1.0.0",
+  "description": "split(TypedArray)",
+  "type": "module",
+  "exports": {
+    ".": "./split.js"
+  },
+  "types": "./split.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typed",
+    "array",
+    "split"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/typed-array-split.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/typed-array-split/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/typed-array-split#readme"
+}
